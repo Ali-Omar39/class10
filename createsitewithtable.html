@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table cols use</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        #thead{
+            background: red;
+        }
+        #tdata{
+            background: rgb(219, 188, 152);
+        }
+        #head{
+            background: greenyellow;
+        }
+        #abouttext{
+            background: orange;
+        }
+        #bloghead{
+            background:greenyellow;
+        }
+        #blogtext{
+            background: orange;
+        }
+        #newblogtext{
+            border: 5px solid white;
+            background:orange;
+        }
+        #coursename{
+            background: orange;
+        }
+        #Runnigcourse{
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- head start -->
+        <tr id="thead">
+            <th colspan="3">95iCon</th>
+            <th colspan="3">Logo</th>
+        </tr>
+        <!-- head end -->
+         <!-- navigation start -->
+        <tr id="tdata">
+            <td><a href="#">Home</a></td>
+            <td><a href="#">About</a></td>
+            <td><a href="#">Blog</a></td>
+            <td><a href="#">New Blog</a></td>
+            <td><a href="#">Course</a></td>
+            <td><a href="#">Runnig Course</a></td>
+        </tr>
+        <!-- navigation end -->
+         <!-- about start -->
+        <tr>
+                <th id="head" colspan="6">About</th>
+            <tr>
+                <td id="abouttext" colspan="3">
+                    <h1>Mission</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatibus delectus in atque perspiciatis maiores obcaecati accusamus iure amet ducimus.</p>
+                </td>
+                <td id="abouttext" colspan="3">
+                    <h1>Vission</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae eaque perferendis optio saepe, voluptatem quidem voluptates earum consequuntur asperiores?</p>
+                </td>
+            </tr>
+        </tr>
+        <!-- about end -->
+         <!-- blog start -->
+         <tr>
+            <th id="head" colspan="6">Blog</th>
+            <tr>
+                <td id="blogtext" colspan="2">
+                    <h1>Graphics Design</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, sunt.</p>
+                </td>
+                <td id="blogtext" colspan="2">
+                    <h1>Graphics Design</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, sunt.</p>
+                </td>
+                <td id="blogtext" colspan="2">
+                    <h1>Graphics Design</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, sunt.</p>
+                </td>
+            </tr>
+         </tr>
+         <!-- blog end -->
+          <!-- new blog start -->
+           <tr>
+            <th id="head" colspan="6">New Blog</th>
+            <tr>
+                <td id="newblogtext" colspan="3">
+                    <h1>Full stack web development</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum saepe iste animi accusantium nesciunt pariatur?</p>
+                </td>
+                <td id="newblogtext" colspan="3">
+                    <h1>Digital Marketing</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloribus fugit dolore perspiciatis odio quos.</p>
+                </td>
+            </tr>
+           </tr>
+           <!-- new blog end -->
+            <!-- Our Course start -->
+             <tr>
+                <th id="head" colspan="6">Our Course</th>
+                <tr id="coursename">
+                    <th colspan="2">Course Name</th>
+                    <th colspan="2">Course Start</th>
+                    <th colspan="2">Course Duration</th>
+                </tr>
+                <tr id="coursename">
+                    <td colspan="2">Cyber Security</td>
+                    <td colspan="2">20 December 2024</td>
+                    <td colspan="2">Almost 5 month</td>
+                </tr>
+                <tr id="coursename">
+                    <td colspan="2">Full Stack web development</td>
+                    <td colspan="2">20November2024</td>
+                    <td colspan="2">Almost 1 Year</td>
+                </tr>
+                <tr id="coursename">
+                    <td colspan="2">Digtal Marketing</td>
+                    <td colspan="2">20November2024</td>
+                    <td colspan="2">Almost 1 Year</td>
+                </tr>
+                <tr id="coursename">
+                    <td colspan="2">Ielst</td>
+                    <td colspan="2">20November2024</td>
+                    <td colspan="2">Almost 1 Year</td>
+                </tr>
+                <tr id="coursename">
+                    <td colspan="2">Graphics Design</td>
+                    <td colspan="2">20November2024</td>
+                    <td colspan="2">Almost 1 Year</td>
+                </tr>
+             </tr>
+             <!-- our course end -->
+              <!-- Runnig course start-->
+               <tr>
+                <th id="head" colspan="6">Runnig Course</th>
+                <tr>
+                    <td id="Runnigcourse" colspan="6">
+                        <ol>
+                            <li>Full Stack web development</li>
+                            <li>Digital Marketing</li>
+                        </ol>
+                    </td>
+                </tr>
+               </tr>
+               <!-- Running course end -->
+                <!-- footer start -->
+               <tr>
+                <td id="head" colspan="6"><p>&copy;aliomra2024</p></td>
+               </tr>
+               <!-- footer end -->
+    </table>
+</body>
+</html>
